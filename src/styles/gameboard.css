@@ -1,0 +1,136 @@
+.game-board {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    min-height: 100vh;
+    background-color: black;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.tile-container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.row, .row-1{
+    display: flex;
+    gap: 5px;
+}
+
+.game-tile {
+    display: flex;
+    width: 52px;
+    height: 52px;
+    border: 2px solid #3a3a3c;
+    background-color: transparent;
+    color: white;
+}
+
+.letter-value {
+    display: flex;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    width: 100%;
+}
+
+.correct-tile {
+    background-color: #538c4e;
+    display: flex;
+    width: 52px;
+    height: 52px;
+    border: 2px solid #3a3a3c;
+    color: white;
+}
+
+.yellow-tile {
+    background-color: #b49e3c;
+    display: flex;
+    width: 52px;
+    height: 52px;
+    border: 2px solid #3a3a3c;
+    color: white;
+}
+
+.gray-tile {
+    background-color: #3a3a3c;
+    display: flex;
+    width: 52px;
+    height: 52px;
+    border: 2px solid #3a3a3c;
+    color: white;
+}
+
+.button-styles {
+    width: 43px;
+    height: 58px;
+    background-color: #818384;
+    color: white;
+    border: none;
+    font-weight: bold;
+    border-radius: 4px;
+    font-size: 20px;
+}
+
+.button-styles:hover {
+    cursor: pointer;
+}
+
+.keyboard-input {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.keyboard-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    flex-direction: row;
+}
+
+#enter-button {
+    font-size: 12px;
+    width: 65.4px;
+    height: 58px;
+}
+
+.keyboard-incorrect-tile {
+    background-color: #3a3a3c;
+    width: 43px;
+    height: 58px;
+    color: white;
+    border: none;
+    font-weight: bold;
+    border-radius: 4px;
+    font-size: 20px;
+
+}
+
+.keyboard-correct-tile {
+    background-color: #538d4e;
+    width: 43px;
+    height: 58px;
+    color: white;
+    border: none;
+    font-weight: bold;
+    border-radius: 4px;
+    font-size: 20px;
+
+}
+
+.keyboard-yellow-tile {
+    background-color: #b49e3c;
+    width: 43px;
+    height: 58px;
+    color: white;
+    border: none;
+    font-weight: bold;
+    border-radius: 4px;
+    font-size: 20px;
+
+}
